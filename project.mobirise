@@ -1,0 +1,1089 @@
+{
+  "settings": {
+    "name": "bowling 5",
+    "currentPage": "page4.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#cc3300",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "cocon-bold-webfont",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#cc3300"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.6",
+    "siteFonts": [
+      {
+        "css": "'cocon-bold-webfont'",
+        "name": "cocon-bold-webfont",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/cocon-bold-webfont/font.woff"
+      }
+    ],
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "uniqCompNum": 15,
+    "versionPublish": "4.8.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#cc3300!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">FORSIDE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Burdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familieboling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vallo-logo3-square-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "left",
+            "showArrow": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/strike-rod-6-1900x850-322-1900x850.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#16a085",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.4"
+          },
+          "arrowDown": "@THEME_PATH@/components/_images/header/arrowDown.png",
+          "title": "Vallø bowling \n<div>&amp; biljard</div>",
+          "text": "Mandag og onsdag kl. 11:00 – 22:00 \n<br>Tirsdag og torsdag kl. 14:00 – 22:00 \n<br>Fredag kl. 11:00 – 24:00 \n<br>Lørdag kl. 12:00 – 24:00 \n<br>Søndag kl. 12:00 – 22:00<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-lg\" href=\"tel:91346911\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header3\" data-rv-view=\"117\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/strike-rod-6-1900x850-322-1900x850.jpg&quot;);\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.4; background-color: rgb(0, 0, 0);\"></div>\n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1 text-xs-left\">\n\n<h1 class=\"mbr-section-title display-1 mbr-editable-content\" style=\"color: rgb(204, 51, 0);\" code-editable-id=\"220\">Vallø bowling \n<div>&amp; biljard</div></h1>\n                    <p class=\"mbr-section-subtitle lead subtitle mbr-editable-content\" style=\"font-family: &quot;PT Sans Narrow&quot;, sans-serif; font-size: 14px;\" code-editable-id=\"221\">Mandag og onsdag kl. 11:00 – 22:00 \n<br>Tirsdag og torsdag kl. 14:00 – 22:00 \n<br>Fredag kl. 11:00 – 24:00 \n<br>Lørdag kl. 12:00 – 24:00 \n<br>Søndag kl. 12:00 – 22:00<br></p>\n\n                    \n\n                    <div class=\"mbr-section-btn\" style=\"text-align: left;\"><a class=\"btn btn-primary btn-sm mbr-editable-button\" href=\"tel:91346911\" code-editable-id=\"222\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\" style=\"font-family: &quot;Roboto Slab&quot;, serif;\"></span>913 46 911</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    \n\n</section>",
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);\n@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);\n@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);\n@import url(undefined);\n@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);\n@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);\n@import url(https://fonts.googleapis.com/css?family=Indie+Flower);\n.display-1 {\n  font-weight: 700;\n}\n.lead {\n  color: #fff;\n  text-transform: uppercase;\n  margin-bottom: 0;\n}\n.mbr-section-subtitle {\n  font-family: 'Indie Flower', cursive;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.mbr-section-title {\n  font-size: 60px;\n  color: #cc4400;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "header3-1"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/01.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/02.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/04.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/05.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/06.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "Features",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-2"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Page 1",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#cc3300!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">FORSIDE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Burdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familieboling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vallo-logo3-square-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "secondType": "popular",
+            "thirdType": "",
+            "fourthType": "",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/pricing-table/pricing-table-bg.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ecf0f1",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Choose Pricing Plan",
+          "subtitle": " This new-found knowledge may then be used by engineers to create new tools and machines.",
+          "title1": "BASIC PLAN",
+          "title2": "TEAM PLAN",
+          "title3": "CORPORATE PLAN",
+          "title4": "ULTIMATE PLAN",
+          "label1": "POPULAR",
+          "label2": "POPULAR",
+          "label3": "POPULAR",
+          "label4": "POPULAR",
+          "currency1": "$",
+          "currency2": "$",
+          "currency3": "$",
+          "currency4": "$",
+          "price1": "29",
+          "price2": "49",
+          "price3": "65",
+          "price4": "190",
+          "period1": "/mo",
+          "period2": "/mo",
+          "period3": "/mo",
+          "period4": "/mo",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>5</b> Projects</li><li class=\"list-group-item\"><b>20</b> Images</li><li class=\"list-group-item\"><b>9/5</b> Support</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>10</b> Projects</li><li class=\"list-group-item\"><b>40</b> Images</li><li class=\"list-group-item\"><b>12/7</b> Support</li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>50</b> Projects</li><li class=\"list-group-item\"><b>100</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>Unlimited</b> Projects</li><li class=\"list-group-item\"><b>Unlimited</b> Images</li><li class=\"list-group-item\"><b>24/7</b> Support</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary-outline btn-primary\">BUY NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_customHTML": "<section class=\"mbr-section mbr-price-table\" data-rv-view=\"56\" style=\"background-color: rgb(0, 0, 0); padding-top: 120px; padding-bottom: 120px;\">\n\n    \n\n      <div class=\"container\">\n          <div class=\"row\">\n              <div class=\"col-xs-12 text-xs-center\">\n                  <h1 class=\"mbr-section-title main-title mbr-editable-content\" style=\"color: rgb(204, 68, 0); font-family: cocon-bold-webfont;\" code-editable-id=\"111\">Våre Priser</h1>\n                  <h5 class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"112\"> &nbsp;</h5>\n              </div>\n          </div>\n      </div>\n\n    <div class=\"mbr-section mbr-section-nopadding\">\n      <div class=\"row\">\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" style=\"color: rgb(204, 68, 0);\" code-editable-id=\"113\">MAN-FRE FØR KL 1600</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          \n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <strong>Løsspill</strong> Pr. serie 35,-\n<br>Skoleie 25,-\n<br>\n<br><strong>Pensjonister:</strong>\n<br>Pr. serie 25,-\n<br>\n<br><strong>Inntil 6 serier</strong> 200,- ink. sko\n<br>\n<br><strong>Inntil 10 serier </strong>250,- ink. sko\n<br>\n<br><strong>Tilbud u/ 18 år:</strong>\n<br>3 serier og slush 150,-\n<br>\n<br><strong>Biljard:</strong>\n<br>15 min 25,-\n<br>30 min 50,-\n<br>1 time 100,-<br>&nbsp;\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" style=\"color: rgb(204, 68, 0);\" code-editable-id=\"114\">Øvrige åpningstider</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          \n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <strong>Løsspill</strong> Pr. serie 50,- \n<br>Skoleie 25,- \n<br>\n<br><strong>Pensjonister:</strong> \n<br>Pr. serie 25,- \n<br>\n<br><strong>Inntil 6 serier</strong> 200,- ink. sko \n<br>\n<br><strong>Inntil 10 serier</strong> 250,- ink. sko \n<br>\n<br><strong>Tilbud u/ 18 år: \n</strong><br>3 serier og slush 150,- \n<br>\n<br><strong>Biljard:</strong> \n<br>15 min 25,- \n<br>30 min 50,- \n<br>1 time 100,-<br>&nbsp;\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" style=\"color: rgb(204, 68, 0);\" code-editable-id=\"115\">Familiebowling</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          \n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <strong>Pr.bane ink. kaffe og slush:</strong> \n<br>1 time 350,- \n<br>1,5 time 475,- \n<br>2 timer 585,-<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;\n                      \n                    </div>\n                </div>\n            </div>\n            <div class=\"col-xs-12  col-md-6 col-xl-3\">\n                <div class=\"mbr-plan card text-xs-center\">\n                    <div class=\"mbr-plan-header card-block\">\n                      \n                      <div class=\"card-title\">\n                        <h3 class=\"mbr-plan-title mbr-editable-content\" style=\"color: rgb(204, 68, 0);\" code-editable-id=\"116\">Arrangementer</h3>\n                      </div>\n                      <div class=\"card-text\">\n                          \n                      </div>\n                    </div>\n                    <div class=\"mbr-plan-body card-block\">\n                      <strong>Bursdagsbowling (gjelder også klasser, idrettslag, foreninger og SFO):</strong> \n<br>1 serie bowling, pizza, 0,5 mineralvann og slush 135,- \n<br>(under 10 år) \n<br>2 serier bowling, pizza, 0,5 mineralvann og sush 170,- \n<br>(10-12 år) \n<br>3 serier bowling, pizza, 0,5 mineralvann og slush 210,- \n<br>(13-16 år)\n<br>\n<br><strong>Firmabowling:</strong> \n<br>2 serier bowling og pizza 210,- pr. person. \n<br>3 serier bowling og pizza 250,- pr. person.\n                      \n                    </div>\n                </div>\n            </div>\n                    </div>\n                </div>\n           \n\n</section>",
+          "_customCSS": "@import url(null);\n@import url(undefined);\n.mbr-section__container .mbr-section-title {\n  color: #fff;\n}\n.mbr-section__container .mbr-section-subtitle {\n  color: #a0a0a0;\n}\nH1 {\n  color: #cc4400;",
+          "_customTemplate": true,
+          "_anchor": "pricing-table1-5"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Page 2",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#cc3300!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">FORSIDE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Burdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familieboling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vallo-logo3-square-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header3\" data-rv-view=\"117\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/strike-rod-6-1900x850-322-1900x850.jpg&quot;);\">\n<div class=\"mbr-overlay\" style=\"opacity: 0.4; background-color: rgb(0, 0, 0);\"></div>\n\n  <div class=\"mbr-table-cell\">  \n    \n    <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1 text-xs-left\">\n\n<h1 class=\"mbr-section-title display-1 mbr-editable-content\" style=\"color: rgb(204, 51, 0); font-size: 60px;\" code-editable-id=\"217\">Vallø bowling \n<div>&amp; biljard</div></h1>\n\n<p class=\"mbr-section-subtitle lead subtitle mbr-editable-content\" style=\"font-size: 12px; color: rgb(256, 256, 256);\" code-editable-id=\"218\">Mandag og onsdag kl. 11:00 – 22:00 \n<br>Tirsdag og torsdag kl. 14:00 – 22:00 \n<br>Fredag kl. 11:00 – 24:00 \n<br>Lørdag kl. 12:00 – 24:00 \n<br>Søndag kl. 12:00 – 22:00<br></p>\n\n<h3 class=\"under\" style=\"color: rgb(256, 256, 256);font-size: 20px;\">Vi har sjenkebevilgning!<br>&nbsp;</h3>\n                    \n<div class=\"mbr-section-btn\" style=\"text-align: left;\"><a class=\"btn btn-primary btn-sm mbr-editable-button\" href=\"tel:91346911\" code-editable-id=\"219\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\" style=\"font-family: &quot;Roboto Slab&quot;, serif;\"></span>913 46 911</a></div>\n                \n                </div></div></div></div>\n\n\n</section>",
+          "_customCSS": ".mbr-section-title {\n    padding-top: 80px;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.mbr-section-subtitle {\n    color: #ffffff;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.under {\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-9",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": false,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#2c3e50",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/01.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/02.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/03.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/04.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/05.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/features/06.jpg",
+              "class": "features-img",
+              "width": 600
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title": "Features",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using.",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "buttons3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "buttons4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "buttons5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-8"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "Page 3",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#cc3300!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">FORSIDE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Burdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familieboling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vallo-logo3-square-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header3\" data-rv-view=\"117\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/strike-rod-6-1900x850-322-1900x850.jpg&quot;);\">\n<div class=\"mbr-overlay\" style=\"opacity: 0.4; background-color: rgb(0, 0, 0);\"></div>\n\n  <div class=\"mbr-table-cell\">  \n    \n    <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1 text-xs-left\">\n\n<h1 class=\"mbr-section-title display-1 mbr-editable-content\" style=\"color: rgb(204, 51, 0); font-size: 60px;\" code-editable-id=\"244\">Vallø bowling \n<div>&amp; biljard</div></h1>\n\n<p class=\"mbr-section-subtitle lead subtitle mbr-editable-content\" style=\"font-size: 12px; color: rgb(256, 256, 256);\" code-editable-id=\"245\">Hver mandag, onsdag og fredag kl. 11.00 møtes en gjeng pensjonister til en hyggelig bowlingrunde og litt prat.\n<br>Etter 2 serier tar vi en god pause med rykende fersk kaffe og nystekte vafler.\n<br>Det er plass til flere pensjonister, så det er bare å møte opp til en sosial og hyggelig gjeng.\n<br>Alle er hjertelige velkommen!</p>\n\n<h3 class=\"under\" style=\"color: rgb(256, 256, 256);font-size: 20px;\"><strong>Priser: \n</strong><strong>Bowling 25,- pr serie<br> \n</strong><strong>Vaffel kr. 10,-</strong><br>&nbsp;</h3>\n                    \n<div class=\"mbr-section-btn\" style=\"text-align: left;\"><a class=\"btn btn-primary btn-sm mbr-editable-button\" href=\"tel:91346911\" code-editable-id=\"246\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\" style=\"font-family: &quot;Roboto Slab&quot;, serif;\"></span>913 46 911</a></div>\n                \n                </div></div></div></div>\n\n\n</section>",
+          "_customCSS": ".mbr-section-title {\n    padding-top: 80px;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.mbr-section-subtitle {\n    color: #ffffff;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.under {\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-b",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "Page 4",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-family": "'PT Sans', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#cc3300!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "bgColor": "#000000",
+            "fontSize": 0.875,
+            "fontName": {
+              "name": "PT Sans",
+              "url": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "css": "'PT Sans', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">FORSIDE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Burdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familieboling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page4.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/vallo-logo3-square-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header3\" data-rv-view=\"117\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/strike-rod-6-1900x850-322-1900x850.jpg&quot;);\">\n\n    \n\n    <div class=\"mbr-overlay\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title align-left mbr-white pb-3 mbr-fonts-style\">Pensjonistbowling</h1>\n                <div class=\"mbr-section-text mbr-white pb-3 align-left \">\n                    <p class=\"mbr-text mbr-fonts-style\">Hver mandag, onsdag og fredag kl. 11.00 møtes en gjeng pensjonister til en hyggelig bowlingrunde og litt prat.\n<br>Etter 2 serier tar vi en god pause med rykende fersk kaffe og nystekte vafler.\n<br>Det er plass til flere pensjonister, så det er bare å møte opp til en sosial og hyggelig gjeng.\n<br>Alle er hjertelige velkommen!</p>\n                \n                <h2 class=\"mbr-section-text mbr-fonts-style\"><strong><br></strong><strong>Priser: \n</strong><div><strong>Bowling 25,- pr serie \n</strong></div><div><strong>Vaffel kr. 10,-</strong></div><div><strong><br></strong></div></h2>\n                </div>\n                <div class=\"mbr-section-btn\"><a class=\"btn btn-md btn-primary\" href=\"tel:913 46 911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customCSS": "\n.media-content .btn-bgr {\n  z-index: 0;\n}\n.mbr-section-title {\n    padding-top: 80px;\n  text-align: left;\n  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n  color: #ffffff;\n}\nh2 {\n  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n  color: #ffffff;\n}\np {\n  font-size: 20px;\n  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.mbr-text, .mbr-section-btn {\n  text-align: left;\n}\n.mbr-section-text {\n  text-align: left;\n}\n.mbr-section-btn {\n  margin-left: -15px;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-d",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full header3\" data-rv-view=\"117\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/strike-rod-6-1900x850-322-1900x850.jpg&quot;);\">\n<div class=\"mbr-overlay\" style=\"opacity: 0.4; background-color: rgb(0, 0, 0);\"></div>\n\n  <div class=\"mbr-table-cell\">  \n    \n    <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1 text-xs-left\">\n\n<h1 class=\"mbr-section-title display-1 mbr-editable-content\" style=\"color: rgb(204, 51, 0); font-size: 60px;\" code-editable-id=\"253\">Vallø bowling \n<div>&amp; biljard</div></h1>\n\n<p class=\"mbr-section-subtitle lead subtitle mbr-editable-content\" style=\"font-size: 12px; color: rgb(256, 256, 256);\" code-editable-id=\"254\">Mandag og onsdag kl. 11:00 – 22:00 \n<br>Tirsdag og torsdag kl. 14:00 – 22:00 \n<br>Fredag kl. 11:00 – 24:00 \n<br>Lørdag kl. 12:00 – 24:00 \n<br>Søndag kl. 12:00 – 22:00<br></p>\n\n<h3 class=\"under\" style=\"color: rgb(256, 256, 256);font-size: 20px;\">Vi har sjenkebevilgning!<br>&nbsp;</h3>\n                    \n<div class=\"mbr-section-btn\" style=\"text-align: left;\"><a class=\"btn btn-primary btn-sm mbr-editable-button\" href=\"tel:91346911\" code-editable-id=\"255\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\" style=\"font-family: &quot;Roboto Slab&quot;, serif;\"></span>913 46 911</a></div>\n                \n                </div></div></div></div>\n\n\n</section>",
+          "_customCSS": ".mbr-section-title {\n    padding-top: 80px;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.mbr-section-subtitle {\n    color: #ffffff;\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}\n.under {\n    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-e"
+        }
+      ]
+    }
+  }
+}
